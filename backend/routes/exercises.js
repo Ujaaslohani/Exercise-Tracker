@@ -22,7 +22,10 @@ router.route("/add").post((req, res) => {
 
   newexercise
     .save()
-    .then(() => res.json("Exercise added!"))
+    .then(() => {
+      exercise.calculateCaloriesBurned();
+      res.json("Exercise added!")
+    })
     .catch((err) => res.status(400).json("Error: " + err));
 });
 

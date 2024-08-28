@@ -11,6 +11,11 @@ const userSchema = new Schema(
       trim: true,
       minlength: 3,
     },
+    password: {
+      type: String,
+      required: true,
+      minlength: 6,
+    },
   },
   {
     timestamps: true,
@@ -18,5 +23,8 @@ const userSchema = new Schema(
 );
 
 const User = mongoose.model("User", userSchema);
+User.prototype.comparePassword = function(password) {
+  return this.password === password;
+};
 
 module.exports = User;

@@ -8,11 +8,26 @@ const exerciseSchema = new Schema(
     description: { type: String, required: true },
     duration: { type: Number, required: true },
     date: { type: Date, required: true },
+    caloriesBurned:{type: Number},
   },
   {
     timestamps: true,
   }
 );
+
+Exercise.prototype.calculateCaloriesBurned = function() {
+  const calorieBurnRates = {
+    running: 10,
+    cycling: 8,
+    swimming: 12,
+  };
+
+  const caloriesBurned = calorieBurnRates[this.type] * this.duration;
+
+  this.caloriesBurned = caloriesBurned;
+
+  return caloriesBurned;
+};
 
 const Exercise = mongoose.model("Exercise", exerciseSchema);
 
