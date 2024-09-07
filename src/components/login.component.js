@@ -25,17 +25,16 @@ class Login extends Component {
 
   handleSubmit(event) {
     event.preventDefault();
-    axios.post('http://localhost:5000/api/login', {
+    axios.post('http://localhost:5000/users/login', {
       username: this.state.username,
       password: this.state.password
     })
       .then(response => {
         const data = response.data;
-        if (data.token) {
-          this.setState({ token: data.token });
-          localStorage.setItem('token', data.token);
+        if (data === "Login successful!") {
+          this.props.history.push('/exercises');
         } else {
-          this.setState({ error: data.error });
+          this.setState({ error: data });
         }
       })
       .catch(error => {
@@ -44,24 +43,34 @@ class Login extends Component {
   }
 
   render() {
-    if (this.state.token) {
-      return (
-        <div>
-          Logged in successfully! Your token is: {this.state.token}
-        </div>
-      );
-    }
-        return (
-            <div className="main">
-              <p className="sign" align="center">Login</p>
-              <form className="form1">
-                <input className="un" type="text" align="center" placeholder="Username" />
-                <input className="pass" type="password" align="center" placeholder="Password" />
-                <a className="submit" align="center">Login</a>
-                <p className="forgot" align="center"><a href="#">Forgot Password?</a></p>
-              </form>
-            </div>
-          );
+    return (
+      <div className="main">
+        <p className="sign" align="center">Login</p>
+        <form className="form1" onSubmit={this.handleSubmit}>
+          <input
+            className="un"
+            type="text"
+            align="center"
+            placeholder="Username"
+            name="username"
+            value={this.state.username}
+            onChange={this.handleChange}
+          />
+          <input
+            className="pass"
+            type="password"
+            align="center"
+            placeholder="Password"
+            name="password"
+            value={this.state.password}
+            onChange={this.handleChange}
+          />
+          <button className="submit" align="center" type="submit">Login</button>
+          <p className="forgot" align="center"><a href="/register">Don't have an account?</a></p>
+          {this.state.error && <p style={{ color: 'red' }}>{this.state.error}</p>}
+        </form>
+      </div>
+    );
   }
 }
 

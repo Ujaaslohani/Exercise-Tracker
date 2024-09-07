@@ -104,3 +104,7 @@ a {
     }
     
 }
+
+.submit:hover {
+    background: linear-gradient(to right, #E040FB, #9C27B0);
+  }
