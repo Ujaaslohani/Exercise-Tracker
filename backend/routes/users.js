@@ -18,14 +18,12 @@ router.route("/add").post((req, res) => {
     .catch((err) => res.status(400).json("Error: " + err));
 });
 
-router.route("/login").post((req, res) => {
+router.route("/login").post(async (req, res) => {
   const username = req.body.username;
   const password = req.body.password;
 
-  User.findOne({ username }, (err, user) => {
-    if (err) {
-      return res.status(400).json("Error: " + err);
-    }
+  try {
+    const user = await User.findOne({ username });
     if (!user) {
       return res.status(401).json("Invalid username or password");
     }
@@ -33,28 +31,28 @@ router.route("/login").post((req, res) => {
       return res.status(401).json("Invalid username or password");
     }
     res.json("Login successful!");
-  });
+  } catch (err) {
+    return res.status(400).json("Error: " + err);
+  }
 });
 
-router.route("/register").post((req, res) => {
+router.route("/register").post(async (req, res) => {
   const username = req.body.username;
   const password = req.body.password;
+  const email = req.body.email;
 
-  User.findOne({ username }, (err, user) => {
-    if (err) {
-      return res.status(400).json("Error: " + err);
-    }
+  try {
+    const user = await User.findOne({ username });
     if (user) {
       return res.status(400).json("Username already exists");
     }
 
-    const newUser = new User({ username, password });
-
-    newUser
-      .save()
-      .then(() => res.json("User registered successfully!"))
-      .catch((err) => res.status(400).json("Error: " + err));
-  });
+    const newUser = new User({ username, password, email });
+    await newUser.save();
+    res.json("User registered successfully!");
+  } catch (err) {
+    return res.status(400).json("Error: " + err);
+  }
 });
 
 module.exports = router;

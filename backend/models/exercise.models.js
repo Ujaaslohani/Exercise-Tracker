@@ -1,4 +1,3 @@
-const { type } = require("@testing-library/user-event/dist/type");
 const mongoose = require("mongoose");
 const Schema = mongoose.Schema;
 
@@ -8,14 +7,15 @@ const exerciseSchema = new Schema(
     description: { type: String, required: true },
     duration: { type: Number, required: true },
     date: { type: Date, required: true },
-    caloriesBurned:{type: Number},
+    type: { type: String, required: true }, // You were missing this field
+    caloriesBurned: { type: Number },
   },
   {
     timestamps: true,
   }
 );
 
-Exercise.prototype.calculateCaloriesBurned = function() {
+exerciseSchema.methods.calculateCaloriesBurned = function() {
   const calorieBurnRates = {
     running: 10,
     cycling: 8,
