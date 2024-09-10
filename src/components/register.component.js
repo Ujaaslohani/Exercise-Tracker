@@ -1,20 +1,20 @@
 import React, { useState } from 'react';
 import './css/register.css';
+
 const Register = () => {
   const [username, setUsername] = useState('');
   const [email, setEmail] = useState('');
   const [password, setPassword] = useState('');
-  const [confirmPassword, setConfirmPassword] = useState('');
   const [error, setError] = useState(null);
 
   const handleSubmit = (e) => {
     e.preventDefault();
-    if (password !== confirmPassword) {
-      setError('Passwords do not match');
+    if (password === '') {
+      setError('Password is required');
       return;
     }
 
-    fetch('/api/register', {
+    fetch('/register', {
       method: 'POST',
       headers: {
         'Content-Type': 'application/json',
@@ -23,15 +23,15 @@ const Register = () => {
     })
       .then((response) => response.json())
       .then((data) => {
-        if (data.success) {
+        if (data === 'User registered successfully!') {
           window.location.href = '/login';
         } else {
-          setError('Registration failed');
+          setError(data);
         }
       })
       .catch((error) => {
         console.error(error);
-        setError('Registration failed');
+        setError('Error: ' + error);
       });
   };
 
@@ -45,9 +45,6 @@ const Register = () => {
         break;
       case 'password':
         setPassword(e.target.value);
-        break;
-      case 'confirmPassword':
-        setConfirmPassword(e.target.value);
         break;
       default:
         break;
@@ -83,15 +80,6 @@ const Register = () => {
           placeholder="Password"
           name="password"
           value={password}
-          onChange={handleChange}
-        />
-        <input
-          className="pass"
-          type="password"
-          align="center"
-          placeholder="Confirm Password"
-          name="confirmPassword"
-          value={confirmPassword}
           onChange={handleChange}
         />
         <button className="submit" align="center" type="submit">Register</button>
