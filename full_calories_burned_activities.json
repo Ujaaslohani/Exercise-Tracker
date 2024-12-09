@@ -1,0 +1,1592 @@
+{
+  "activities": [
+    {
+      "activity": "Aerobics, general",
+      "calories_burned": {
+        "130_lb": 354,
+        "155_lb": 422,
+        "190_lb": 518
+      }
+    },
+    {
+      "activity": "Aerobics, high impact",
+      "calories_burned": {
+        "130_lb": 413,
+        "155_lb": 493,
+        "190_lb": 604
+      }
+    },
+    {
+      "activity": "Aerobics, low impact",
+      "calories_burned": {
+        "130_lb": 295,
+        "155_lb": 352,
+        "190_lb": 431
+      }
+    },
+    {
+      "activity": "Archery (nonhunting)",
+      "calories_burned": {
+        "130_lb": 207,
+        "155_lb": 246,
+        "190_lb": 302
+      }
+    },
+    {
+      "activity": "Automobile repair",
+      "calories_burned": {
+        "130_lb": 177,
+        "155_lb": 211,
+        "190_lb": 259
+      }
+    },
+    {
+      "activity": "Backpacking, general",
+      "calories_burned": {
+        "130_lb": 413,
+        "155_lb": 493,
+        "190_lb": 604
+      }
+    },
+    {
+      "activity": "Badminton, competitive",
+      "calories_burned": {
+        "130_lb": 413,
+        "155_lb": 493,
+        "190_lb": 604
+      }
+    },
+    {
+      "activity": "Badminton, social, general",
+      "calories_burned": {
+        "130_lb": 266,
+        "155_lb": 317,
+        "190_lb": 388
+      }
+    },
+    {
+      "activity": "Basketball, game",
+      "calories_burned": {
+        "130_lb": 472,
+        "155_lb": 563,
+        "190_lb": 690
+      }
+    },
+    {
+      "activity": "Basketball, nongame, general",
+      "calories_burned": {
+        "130_lb": 354,
+        "155_lb": 422,
+        "190_lb": 518
+      }
+    },
+    {
+      "activity": "Basketball, officiating",
+      "calories_burned": {
+        "130_lb": 413,
+        "155_lb": 493,
+        "190_lb": 604
+      }
+    },
+    {
+      "activity": "Basketball, shooting baskets",
+      "calories_burned": {
+        "130_lb": 266,
+        "155_lb": 317,
+        "190_lb": 388
+      }
+    },
+    {
+      "activity": "Basketball, wheelchair",
+      "calories_burned": {
+        "130_lb": 384,
+        "155_lb": 457,
+        "190_lb": 561
+      }
+    },
+    {
+      "activity": "Bicycling, <10mph, leisure",
+      "calories_burned": {
+        "130_lb": 236,
+        "155_lb": 281,
+        "190_lb": 345
+      }
+    },
+    {
+      "activity": "Bicycling, >20mph, racing",
+      "calories_burned": {
+        "130_lb": 944,
+        "155_lb": 1126,
+        "190_lb": 1380
+      }
+    },
+    {
+      "activity": "Bicycling, 10-11.9mph, light effort",
+      "calories_burned": {
+        "130_lb": 354,
+        "155_lb": 422,
+        "190_lb": 518
+      }
+    },
+    {
+      "activity": "Bicycling, 12-13.9mph, moderate effort",
+      "calories_burned": {
+        "130_lb": 472,
+        "155_lb": 563,
+        "190_lb": 690
+      }
+    },
+    {
+      "activity": "Bicycling, 14-15.9mph, vigorous effort",
+      "calories_burned": {
+        "130_lb": 590,
+        "155_lb": 704,
+        "190_lb": 863
+      }
+    },
+    {
+      "activity": "Bicycling, 16-19mph, very fast, racing",
+      "calories_burned": {
+        "130_lb": 708,
+        "155_lb": 844,
+        "190_lb": 1035
+      }
+    },
+    {
+      "activity": "Bicycling, BMX or mountain",
+      "calories_burned": {
+        "130_lb": 502,
+        "155_lb": 598,
+        "190_lb": 733
+      }
+    },
+    {
+      "activity": "Bicycling, stationary, general",
+      "calories_burned": {
+        "130_lb": 295,
+        "155_lb": 352,
+        "190_lb": 431
+      }
+    },
+    {
+      "activity": "Bicycling, stationary, light effort",
+      "calories_burned": {
+        "130_lb": 325,
+        "155_lb": 387,
+        "190_lb": 474
+      }
+    },
+    {
+      "activity": "Bicycling, stationary, moderate effort",
+      "calories_burned": {
+        "130_lb": 413,
+        "155_lb": 493,
+        "190_lb": 604
+      }
+    },
+    {
+      "activity": "Bicycling, stationary, very light effort",
+      "calories_burned": {
+        "130_lb": 177,
+        "155_lb": 211,
+        "190_lb": 259
+      }
+    },
+    {
+      "activity": "Bicycling, stationary, very vigorous effort",
+      "calories_burned": {
+        "130_lb": 738,
+        "155_lb": 880,
+        "190_lb": 1078
+      }
+    },
+    {
+      "activity": "Bicycling, stationary, vigorous effort",
+      "calories_burned": {
+        "130_lb": 620,
+        "155_lb": 739,
+        "190_lb": 906
+      }
+    },
+    {
+      "activity": "Billiards",
+      "calories_burned": {
+        "130_lb": 148,
+        "155_lb": 176,
+        "190_lb": 216
+      }
+    },
+    {
+      "activity": "Bowling",
+      "calories_burned": {
+        "130_lb": 177,
+        "155_lb": 211,
+        "190_lb": 259
+      }
+    },
+    {
+      "activity": "Boxing, in ring, general",
+      "calories_burned": {
+        "130_lb": 708,
+        "155_lb": 844,
+        "190_lb": 1035
+      }
+    },
+    {
+      "activity": "Boxing, punching bag",
+      "calories_burned": {
+        "130_lb": 354,
+        "155_lb": 422,
+        "190_lb": 518
+      }
+    },
+    {
+      "activity": "Boxing, sparring",
+      "calories_burned": {
+        "130_lb": 531,
+        "155_lb": 633,
+        "190_lb": 776
+      }
+    },
+    {
+      "activity": "Broomball",
+      "calories_burned": {
+        "130_lb": 413,
+        "155_lb": 493,
+        "190_lb": 604
+      }
+    },
+    {
+      "activity": "Calisthenics (pushups, sit-ups), vigorous effort",
+      "calories_burned": {
+        "130_lb": 472,
+        "155_lb": 563,
+        "190_lb": 690
+      }
+    },
+    {
+      "activity": "Calisthenics, home, light/moderate effort",
+      "calories_burned": {
+        "130_lb": 266,
+        "155_lb": 317,
+        "190_lb": 388
+      }
+    },
+    {
+      "activity": "Canoeing, on camping trip",
+      "calories_burned": {
+        "130_lb": 236,
+        "155_lb": 281,
+        "190_lb": 345
+      }
+    },
+    {
+      "activity": "Canoeing, rowing, >6 mph, vigorous effort",
+      "calories_burned": {
+        "130_lb": 708,
+        "155_lb": 844,
+        "190_lb": 1035
+      }
+    },
+    {
+      "activity": "Canoeing, rowing, crewing, competition",
+      "calories_burned": {
+        "130_lb": 708,
+        "155_lb": 844,
+        "190_lb": 1035
+      }
+    },
+    {
+      "activity": "Canoeing, rowing, light effort",
+      "calories_burned": {
+        "130_lb": 177,
+        "155_lb": 211,
+        "190_lb": 259
+      }
+    },
+    {
+      "activity": "Canoeing, rowing, moderate effort",
+      "calories_burned": {
+        "130_lb": 413,
+        "155_lb": 493,
+        "190_lb": 604
+      }
+    },
+    {
+      "activity": "Carpentry, general",
+      "calories_burned": {
+        "130_lb": 207,
+        "155_lb": 246,
+        "190_lb": 302
+      }
+    },
+    {
+      "activity": "Carrying heavy loads, such as bricks",
+      "calories_burned": {
+        "130_lb": 472,
+        "155_lb": 563,
+        "190_lb": 690
+      }
+    },
+    {
+      "activity": "Child care: sitting/kneeling-dressing, feeding",
+      "calories_burned": {
+        "130_lb": 177,
+        "155_lb": 211,
+        "190_lb": 259
+      }
+    },
+    {
+      "activity": "Child care: standing-dressing, feeding",
+      "calories_burned": {
+        "130_lb": 207,
+        "155_lb": 246,
+        "190_lb": 302
+      }
+    },
+    {
+      "activity": "Circuit training, general",
+      "calories_burned": {
+        "130_lb": 472,
+        "155_lb": 563,
+        "190_lb": 690
+      }
+    },
+    {
+      "activity": "Cleaning, heavy, vigorous effort",
+      "calories_burned": {
+        "130_lb": 266,
+        "155_lb": 317,
+        "190_lb": 388
+      }
+    },
+    {
+      "activity": "Cleaning, house, general",
+      "calories_burned": {
+        "130_lb": 207,
+        "155_lb": 246,
+        "190_lb": 302
+      }
+    },
+    {
+      "activity": "Cleaning, light, moderate effort",
+      "calories_burned": {
+        "130_lb": 148,
+        "155_lb": 176,
+        "190_lb": 216
+      }
+    },
+    {
+      "activity": "Coaching: football, soccer, basketball, etc.",
+      "calories_burned": {
+        "130_lb": 236,
+        "155_lb": 281,
+        "190_lb": 345
+      }
+    },
+    {
+      "activity": "Construction, outside, remodeling",
+      "calories_burned": {
+        "130_lb": 325,
+        "155_lb": 387,
+        "190_lb": 474
+      }
+    },
+    {
+      "activity": "Cooking or food preparation",
+      "calories_burned": {
+        "130_lb": 148,
+        "155_lb": 176,
+        "190_lb": 216
+      }
+    },
+    {
+      "activity": "Cricket (batting, bowling)",
+      "calories_burned": {
+        "130_lb": 295,
+        "155_lb": 352,
+        "190_lb": 431
+      }
+    },
+    {
+      "activity": "Croquet",
+      "calories_burned": {
+        "130_lb": 148,
+        "155_lb": 176,
+        "190_lb": 216
+      }
+    },
+    {
+      "activity": "Curling",
+      "calories_burned": {
+        "130_lb": 236,
+        "155_lb": 281,
+        "190_lb": 345
+      }
+    },
+    {
+      "activity": "Dancing, aerobic, ballet or modern, twist",
+      "calories_burned": { "130_lb": 354, "155_lb": 422, "190_lb": 518 }
+    },
+    {
+      "activity": "Dancing, ballroom, fast",
+      "calories_burned": { "130_lb": 325, "155_lb": 387, "190_lb": 474 }
+    },
+    {
+      "activity": "Dancing, ballroom, slow",
+      "calories_burned": { "130_lb": 177, "155_lb": 211, "190_lb": 259 }
+    },
+    {
+      "activity": "Dancing, general",
+      "calories_burned": { "130_lb": 266, "155_lb": 317, "190_lb": 388 }
+    },
+    {
+      "activity": "Darts, wall or lawn",
+      "calories_burned": { "130_lb": 148, "155_lb": 176, "190_lb": 216 }
+    },
+    {
+      "activity": "Diving, springboard or platform",
+      "calories_burned": { "130_lb": 177, "155_lb": 211, "190_lb": 259 }
+    },
+    {
+      "activity": "Electrical work, plumbing",
+      "calories_burned": { "130_lb": 207, "155_lb": 246, "190_lb": 302 }
+    },
+    {
+      "activity": "Farming, baling hay, cleaning barn",
+      "calories_burned": { "130_lb": 472, "155_lb": 563, "190_lb": 690 }
+    },
+    {
+      "activity": "Farming, milking by hand",
+      "calories_burned": { "130_lb": 177, "155_lb": 211, "190_lb": 259 }
+    },
+    {
+      "activity": "Farming, shoveling grain",
+      "calories_burned": { "130_lb": 325, "155_lb": 387, "190_lb": 474 }
+    },
+    {
+      "activity": "Fencing",
+      "calories_burned": { "130_lb": 354, "155_lb": 422, "190_lb": 518 }
+    },
+    {
+      "activity": "Fishing from boat, sitting",
+      "calories_burned": { "130_lb": 148, "155_lb": 176, "190_lb": 216 }
+    },
+    {
+      "activity": "Fishing from river bank, standing",
+      "calories_burned": { "130_lb": 207, "155_lb": 246, "190_lb": 302 }
+    },
+    {
+      "activity": "Fishing in stream, in waders",
+      "calories_burned": { "130_lb": 354, "155_lb": 422, "190_lb": 518 }
+    },
+    {
+      "activity": "Fishing, general",
+      "calories_burned": { "130_lb": 236, "155_lb": 281, "190_lb": 345 }
+    },
+    {
+      "activity": "Fishing, ice, sitting",
+      "calories_burned": { "130_lb": 118, "155_lb": 141, "190_lb": 173 }
+    },
+    {
+      "activity": "Football or baseball, playing catch",
+      "calories_burned": { "130_lb": 148, "155_lb": 176, "190_lb": 216 }
+    },
+    {
+      "activity": "Football, competitive",
+      "calories_burned": { "130_lb": 531, "155_lb": 633, "190_lb": 776 }
+    },
+    {
+      "activity": "Football, touch, flag, general",
+      "calories_burned": { "130_lb": 472, "155_lb": 563, "190_lb": 690 }
+    },
+    {
+      "activity": "Frisbee playing, general",
+      "calories_burned": { "130_lb": 177, "155_lb": 211, "190_lb": 259 }
+    },
+    {
+      "activity": "Frisbee, ultimate",
+      "calories_burned": { "130_lb": 207, "155_lb": 246, "190_lb": 302 }
+    },
+    {
+      "activity": "Gardening, general",
+      "calories_burned": { "130_lb": 295, "155_lb": 352, "190_lb": 431 }
+    },
+    {
+      "activity": "Golf, carrying clubs",
+      "calories_burned": { "130_lb": 325, "155_lb": 387, "190_lb": 474 }
+    },
+    {
+      "activity": "Golf, general",
+      "calories_burned": { "130_lb": 236, "155_lb": 281, "190_lb": 345 }
+    },
+    {
+      "activity": "Golf, miniature or driving range",
+      "calories_burned": { "130_lb": 177, "155_lb": 211, "190_lb": 259 }
+    },
+    {
+      "activity": "Golf, pulling clubs",
+      "calories_burned": { "130_lb": 295, "155_lb": 352, "190_lb": 431 }
+    },
+    {
+      "activity": "Golf, using power cart",
+      "calories_burned": { "130_lb": 207, "155_lb": 246, "190_lb": 302 }
+    },
+    {
+      "activity": "Gymnastics, general",
+      "calories_burned": { "130_lb": 236, "155_lb": 281, "190_lb": 345 }
+    },
+    {
+      "activity": "Hacky sack",
+      "calories_burned": { "130_lb": 236, "155_lb": 281, "190_lb": 345 }
+    },
+    {
+      "activity": "Handball, general",
+      "calories_burned": { "130_lb": 708, "155_lb": 844, "190_lb": 1035 }
+    },
+    {
+      "activity": "Handball, team",
+      "calories_burned": { "130_lb": 472, "155_lb": 563, "190_lb": 690 }
+    },
+    {
+      "activity": "Health club exercise, general",
+      "calories_burned": { "130_lb": 325, "155_lb": 387, "190_lb": 474 }
+    },
+    {
+      "activity": "Hiking, cross country",
+      "calories_burned": { "130_lb": 354, "155_lb": 422, "190_lb": 518 }
+    },
+    {
+      "activity": "Hockey, field",
+      "calories_burned": { "130_lb": 472, "155_lb": 563, "190_lb": 690 }
+    },
+    {
+      "activity": "Hockey, ice",
+      "calories_burned": { "130_lb": 472, "155_lb": 563, "190_lb": 690 }
+    },
+    {
+      "activity": "Horse grooming",
+      "calories_burned": { "130_lb": 354, "155_lb": 422, "190_lb": 518 }
+    },
+    {
+      "activity": "Horse racing, galloping",
+      "calories_burned": { "130_lb": 472, "155_lb": 563, "190_lb": 690 }
+    },
+    {
+      "activity": "Horseback riding, general",
+      "calories_burned": { "130_lb": 236, "155_lb": 281, "190_lb": 345 }
+    },
+    {
+      "activity": "Horseback riding, trotting",
+      "calories_burned": { "130_lb": 384, "155_lb": 457, "190_lb": 561 }
+    },
+    {
+      "activity": "Horseback riding, walking",
+      "calories_burned": { "130_lb": 148, "155_lb": 176, "190_lb": 216 }
+    },
+    {
+      "activity": "Hunting, general",
+      "calories_burned": { "130_lb": 295, "155_lb": 352, "190_lb": 431 }
+    },
+    {
+      "activity": "Jai alai",
+      "calories_burned": { "130_lb": 708, "155_lb": 844, "190_lb": 1035 }
+    },
+    {
+      "activity": "Jogging, general",
+      "calories_burned": { "130_lb": 413, "155_lb": 493, "190_lb": 604 }
+    },
+    {
+      "activity": "Judo, karate, kick boxing, tae kwan do",
+      "calories_burned": { "130_lb": 590, "155_lb": 704, "190_lb": 863 }
+    },
+    {
+      "activity": "Kayaking",
+      "calories_burned": { "130_lb": 295, "155_lb": 352, "190_lb": 431 }
+    },
+    {
+      "activity": "Kickball",
+      "calories_burned": { "130_lb": 413, "155_lb": 493, "190_lb": 604 }
+    },
+    {
+      "activity": "Lacrosse",
+      "calories_burned": { "130_lb": 472, "155_lb": 563, "190_lb": 690 }
+    },
+    {
+      "activity": "Marching band, playing instrument(walking)",
+      "calories_burned": { "130_lb": 236, "155_lb": 281, "190_lb": 345 }
+    },
+    {
+      "activity": "Marching, rapidly, military",
+      "calories_burned": { "130_lb": 384, "155_lb": 457, "190_lb": 561 }
+    },
+    {
+      "activity": "Moto-cross",
+      "calories_burned": { "130_lb": 236, "155_lb": 281, "190_lb": 345 }
+    },
+    {
+      "activity": "Moving furniture, household",
+      "calories_burned": { "130_lb": 354, "155_lb": 422, "190_lb": 518 }
+    },
+    {
+      "activity": "Moving household items, boxes, upstairs",
+      "calories_burned": { "130_lb": 531, "155_lb": 633, "190_lb": 776 }
+    },
+    {
+      "activity": "Moving household items, carrying boxes",
+      "calories_burned": { "130_lb": 413, "155_lb": 493, "190_lb": 604 }
+    },
+    {
+      "activity": "Mowing lawn, general",
+      "calories_burned": { "130_lb": 325, "155_lb": 387, "190_lb": 474 }
+    },
+    {
+      "activity": "Mowing lawn, riding mower",
+      "calories_burned": { "130_lb": 148, "155_lb": 176, "190_lb": 216 }
+    },
+          {
+            "activity": "Music playing, cello, flute, horn, woodwind",
+            "calories_burned": {
+              "130_lb": 118,
+              "155_lb": 141,
+              "190_lb": 173
+            }
+          },
+          {
+            "activity": "Music playing, drums",
+            "calories_burned": {
+              "130_lb": 236,
+              "155_lb": 281,
+              "190_lb": 345
+            }
+          },
+          {
+            "activity": "Music playing, guitar, classical, folk(sitting)",
+            "calories_burned": {
+              "130_lb": 118,
+              "155_lb": 141,
+              "190_lb": 173
+            }
+          },
+          {
+            "activity": "Music playing, guitar, rock/roll band(standing)",
+            "calories_burned": {
+              "130_lb": 177,
+              "155_lb": 211,
+              "190_lb": 259
+            }
+          },
+          {
+            "activity": "Music playing, piano, organ, violin, trumpet",
+            "calories_burned": {
+              "130_lb": 148,
+              "155_lb": 176,
+              "190_lb": 216
+            }
+          },
+          {
+            "activity": "Paddleboat",
+            "calories_burned": {
+              "130_lb": 236,
+              "155_lb": 281,
+              "190_lb": 345
+            }
+          },
+          {
+            "activity": "Painting, papering, plastering, scraping",
+            "calories_burned": {
+              "130_lb": 266,
+              "155_lb": 317,
+              "190_lb": 388
+            }
+          },
+          {
+            "activity": "Polo",
+            "calories_burned": {
+              "130_lb": 472,
+              "155_lb": 563,
+              "190_lb": 690
+            }
+          },
+          {
+            "activity": "Pushing or pulling stroller with child",
+            "calories_burned": {
+              "130_lb": 148,
+              "155_lb": 176,
+              "190_lb": 216
+            }
+          },
+          {
+            "activity": "Race walking",
+            "calories_burned": {
+              "130_lb": 384,
+              "155_lb": 457,
+              "190_lb": 561
+            }
+          },
+          {
+            "activity": "Racquetball, casual, general",
+            "calories_burned": {
+              "130_lb": 413,
+              "155_lb": 493,
+              "190_lb": 604
+            }
+          },
+          {
+            "activity": "Racquetball, competitive",
+            "calories_burned": {
+              "130_lb": 590,
+              "155_lb": 704,
+              "190_lb": 863
+            }
+          },
+          {
+            "activity": "Raking lawn",
+            "calories_burned": {
+              "130_lb": 236,
+              "155_lb": 281,
+              "190_lb": 345
+            }
+          },
+          {
+            "activity": "Rock climbing, ascending rock",
+            "calories_burned": {
+              "130_lb": 649,
+              "155_lb": 774,
+              "190_lb": 949
+            }
+          },
+          {
+            "activity": "Rock climbing, rapelling",
+            "calories_burned": {
+              "130_lb": 472,
+              "155_lb": 563,
+              "190_lb": 690
+            }
+          },
+          {
+            "activity": "Rope jumping, fast",
+            "calories_burned": {
+              "130_lb": 708,
+              "155_lb": 844,
+              "190_lb": 1035
+            }
+          },
+          {
+            "activity": "Rope jumping, moderate, general",
+            "calories_burned": {
+              "130_lb": 590,
+              "155_lb": 704,
+              "190_lb": 863
+            }
+          },
+          {
+            "activity": "Rope jumping, slow",
+            "calories_burned": {
+              "130_lb": 472,
+              "155_lb": 563,
+              "190_lb": 690
+            }
+          },
+          {
+            "activity": "Rowing, stationary, light effort",
+            "calories_burned": {
+              "130_lb": 561,
+              "155_lb": 669,
+              "190_lb": 819
+            }
+          },
+          {
+            "activity": "Rowing, stationary, moderate effort",
+            "calories_burned": {
+              "130_lb": 413,
+              "155_lb": 493,
+              "190_lb": 604
+            }
+          },
+          {
+            "activity": "Rowing, stationary, very vigorous effort",
+            "calories_burned": {
+              "130_lb": 708,
+              "155_lb": 844,
+              "190_lb": 1035
+            }
+          },
+          {
+            "activity": "Rowing, stationary, vigorous effort",
+            "calories_burned": {
+              "130_lb": 502,
+              "155_lb": 598,
+              "190_lb": 733
+            }
+          },
+          {
+            "activity": "Rugby",
+            "calories_burned": {
+              "130_lb": 590,
+              "155_lb": 704,
+              "190_lb": 863
+            }
+          },
+          {
+            "activity": "Running, 10 mph (6 min mile)",
+            "calories_burned": {
+              "130_lb": 944,
+              "155_lb": 1126,
+              "190_lb": 1380
+            }
+          },
+          {
+            "activity": "Running, 10.9 mph (5.5 min mile)",
+            "calories_burned": {
+              "130_lb": 1062,
+              "155_lb": 1267,
+              "190_lb": 1553
+            }
+          },
+          {
+            "activity": "Running, 5 mph (12 min mile)",
+            "calories_burned": {
+              "130_lb": 472,
+              "155_lb": 563,
+              "190_lb": 690
+            }
+          },
+          {
+            "activity": "Running, 5.2 mph (11.5 min mile)",
+            "calories_burned": {
+              "130_lb": 531,
+              "155_lb": 633,
+              "190_lb": 776
+            }
+          },
+          {
+            "activity": "Running, 6 mph (10 min mile)",
+            "calories_burned": {
+              "130_lb": 590,
+              "155_lb": 704,
+              "190_lb": 863
+            }
+          },
+          {
+            "activity": "Running, 6.7 mph (9 min mile)",
+            "calories_burned": {
+              "130_lb": 649,
+              "155_lb": 774,
+              "190_lb": 949
+            }
+          },
+          {
+            "activity": "Running, 7 mph (8.5 min mile)",
+            "calories_burned": {
+              "130_lb": 679,
+              "155_lb": 809,
+              "190_lb": 992
+            }
+          },
+          {
+            "activity": "Running, 7.5mph (8 min mile)",
+            "calories_burned": {
+              "130_lb": 738,
+              "155_lb": 880,
+              "190_lb": 1078
+            }
+          },
+          {
+            "activity": "Running, 8 mph (7.5 min mile)",
+            "calories_burned": {
+              "130_lb": 797,
+              "155_lb": 950,
+              "190_lb": 1165
+            }
+          },
+          {
+            "activity": "Running, 8.6 mph (7 min mile)",
+            "calories_burned": {
+              "130_lb": 826,
+              "155_lb": 985,
+              "190_lb": 1208
+            }
+          },
+          {
+            "activity": "Running, 9 mph (6.5 min mile)",
+            "calories_burned": {
+              "130_lb": 885,
+              "155_lb": 1056,
+              "190_lb": 1294
+            }
+          },
+          {
+            "activity": "Running, cross country",
+            "calories_burned": {
+              "130_lb": 531,
+              "155_lb": 633,
+              "190_lb": 776
+            }
+          },
+          {
+            "activity": "Running, general",
+            "calories_burned": {
+              "130_lb": 472,
+              "155_lb": 563,
+              "190_lb": 690
+            }
+          },
+          {
+            "activity": "Running, in place",
+            "calories_burned": {
+              "130_lb": 472,
+              "155_lb": 563,
+              "190_lb": 690
+            }
+          },
+          {
+            "activity": "Running, on a track, team practice",
+            "calories_burned": {
+              "130_lb": 590,
+              "155_lb": 704,
+              "190_lb": 863
+            }
+          },
+          {
+            "activity": "Running, stairs, up",
+            "calories_burned": {
+              "130_lb": 885,
+              "155_lb": 1056,
+              "190_lb": 1294
+            }
+          },
+          {
+            "activity": "Running, training, pushing wheelchair",
+            "calories_burned": {
+              "130_lb": 472,
+              "155_lb": 563,
+              "190_lb": 690
+            }
+          },
+          {
+            "activity": "Running, wheeling, general",
+            "calories_burned": {
+              "130_lb": 177,
+              "155_lb": 211,
+              "190_lb": 259
+            }
+          },
+          {
+            "activity": "Sailing, boat/board, windsurfing, general",
+            "calories_burned": {
+              "130_lb": 177,
+              "155_lb": 211,
+              "190_lb": 259
+            }
+          },
+          {
+            "activity": "Sailing, in competition",
+            "calories_burned": {
+              "130_lb": 295,
+              "155_lb": 352,
+              "190_lb": 431
+            }
+          },
+          {
+            "activity": "Scrubbing floors, on hands and knees",
+            "calories_burned": {
+              "130_lb": 325,
+              "155_lb": 387,
+              "190_lb": 474
+            }
+          },
+          {
+            "activity": "Shoveling snow, by hand",
+            "calories_burned": {
+              "130_lb": 354,
+              "155_lb": 422,
+              "190_lb": 518
+            }
+          },
+          {
+            "activity": "Shuffleboard, lawn bowling",
+            "calories_burned": {
+              "130_lb": 177,
+              "155_lb": 211,
+              "190_lb": 259
+            }
+          },
+          {
+            "activity": "Sitting-playing with children-light",
+            "calories_burned": {
+              "130_lb": 148,
+              "155_lb": 176,
+              "190_lb": 216
+            }
+          },
+          {
+            "activity": "Skateboarding",
+            "calories_burned": {
+              "130_lb": 295,
+              "155_lb": 352,
+              "190_lb": 431
+            }
+          },
+          {
+            "activity": "Skating, ice, 9 mph or less",
+            "calories_burned": {
+              "130_lb": 325,
+              "155_lb": 387,
+              "190_lb": 474
+            }
+          },
+          {
+            "activity": "Skating, ice, general",
+            "calories_burned": {
+              "130_lb": 413,
+              "155_lb": 493,
+              "190_lb": 604
+            }
+          },
+          {
+            "activity": "Skating, ice, rapidly, > 9 mph",
+            "calories_burned": {
+              "130_lb": 531,
+              "155_lb": 633,
+              "190_lb": 776
+            }
+          },
+          {
+            "activity": "Skating, ice, speed, competitive",
+            "calories_burned": {
+              "130_lb": 885,
+              "155_lb": 1056,
+              "190_lb": 1294
+            }
+          },
+          {
+            "activity": "Skating, roller",
+            "calories_burned": {
+              "130_lb": 413,
+              "155_lb": 493,
+              "190_lb": 604
+            }
+          },
+          {
+            "activity": "Ski jumping (climb up carrying skis)",
+            "calories_burned": {
+              "130_lb": 413,
+              "155_lb": 493,
+              "190_lb": 604
+            }
+          },
+          {
+            "activity": "Ski machine, general",
+            "calories_burned": {
+              "130_lb": 561,
+              "155_lb": 669,
+              "190_lb": 819
+            }
+          },
+          {
+            "activity": "Skiing, cross-country, >8.0 mph, racing",
+            "calories_burned": {
+              "130_lb": 826,
+              "155_lb": 985,
+              "190_lb": 1208
+            }
+          },
+          {
+            "activity": "Skiing, cross-country, moderate effort",
+            "calories_burned": {
+              "130_lb": 472,
+              "155_lb": 563,
+              "190_lb": 690
+            }
+          },
+          {
+            "activity": "Skiing, cross-country, slow or light effort",
+            "calories_burned": {
+              "130_lb": 413,
+              "155_lb": 493,
+              "190_lb": 604
+            }
+          },
+          {
+            "activity": "Skiing, cross-country, uphill, maximum effort",
+            "calories_burned": {
+              "130_lb": 974,
+              "155_lb": 1161,
+              "190_lb": 1423
+            }
+          },
+          {
+            "activity": "Skiing, cross-country, vigorous effort",
+            "calories_burned": {
+              "130_lb": 531,
+              "155_lb": 633,
+              "190_lb": 776
+            }
+          },
+          {
+            "activity": "Skiing, downhill, light effort",
+            "calories_burned": {
+              "130_lb": 295,
+              "155_lb": 352,
+              "190_lb": 431
+            }
+          },
+          {
+            "activity": "Skiing, downhill, moderate effort",
+            "calories_burned": {
+              "130_lb": 354,
+              "155_lb": 422,
+              "190_lb": 518
+            }
+          },
+          {
+            "activity": "Skiing, downhill, vigorous effort, racing",
+            "calories_burned": {
+              "130_lb": 472,
+              "155_lb": 563,
+              "190_lb": 690
+            }
+          },
+          {
+            "activity": "Skiing, snow, general",
+            "calories_burned": {
+              "130_lb": 413,
+              "155_lb": 493,
+              "190_lb": 604
+            }
+          },
+          {
+            "activity": "Skiing, water",
+            "calories_burned": {
+              "130_lb": 354,
+              "155_lb": 422,
+              "190_lb": 518
+            }
+          },
+          {
+            "activity": "Ski-mobiling, water",
+            "calories_burned": {
+              "130_lb": 413,
+              "155_lb": 493,
+              "190_lb": 604
+            }
+          },
+          {
+            "activity": "Skin diving, scuba diving, general",
+            "calories_burned": {
+              "130_lb": 413,
+              "155_lb": 493,
+              "190_lb": 604
+            }
+          },
+          {
+            "activity": "Sledding, tobogganing, bobsledding, luge",
+            "calories_burned": {
+              "130_lb": 413,
+              "155_lb": 493,
+              "190_lb": 604
+            }
+          },
+          {
+            "activity": "Snorkeling",
+            "calories_burned": {
+              "130_lb": 295,
+              "155_lb": 352,
+              "190_lb": 431
+            }
+          },
+          {
+            "activity": "Snow shoeing",
+            "calories_burned": {
+              "130_lb": 472,
+              "155_lb": 563,
+              "190_lb": 690
+            }
+          },
+          {
+            "activity": "Snowmobiling",
+            "calories_burned": {
+              "130_lb": 207,
+              "155_lb": 246,
+              "190_lb": 302
+            }
+          },
+          {
+            "activity": "Soccer, casual, general",
+            "calories_burned": {
+              "130_lb": 413,
+              "155_lb": 493,
+              "190_lb": 604
+            }
+          },
+          {
+            "activity": "Soccer, competitive",
+            "calories_burned": {
+              "130_lb": 590,
+              "155_lb": 704,
+              "190_lb": 863
+            }
+          },
+          {
+            "activity": "Softball or baseball, fast or slow pitch",
+            "calories_burned": {
+              "130_lb": 295,
+              "155_lb": 352,
+              "190_lb": 431
+            }
+          },
+          {
+            "activity": "Softball, officiating",
+            "calories_burned": {
+              "130_lb": 354,
+              "155_lb": 422,
+              "190_lb": 518
+            }
+          },
+          {
+            "activity": "Squash",
+            "calories_burned": {
+              "130_lb": 708,
+              "155_lb": 844,
+              "190_lb": 1035
+            }
+          },
+          {
+            "activity": "Stair-treadmill ergometer, general",
+            "calories_burned": {
+              "130_lb": 354,
+              "155_lb": 422,
+              "190_lb": 518
+            }
+          },
+          {
+            "activity": "Standing-packing/unpacking boxes",
+            "calories_burned": {
+              "130_lb": 207,
+              "155_lb": 246,
+              "190_lb": 302
+            }
+          },
+          {
+            "activity": "Stretching, hatha yoga",
+            "calories_burned": {
+              "130_lb": 236,
+              "155_lb": 281,
+              "190_lb": 345
+            }
+          },
+          {
+            "activity": "Surfing, body or board",
+            "calories_burned": {
+              "130_lb": 177,
+              "155_lb": 211,
+              "190_lb": 259
+            }
+          },
+          {
+            "activity": "Sweeping garage, sidewalk",
+            "calories_burned": {
+              "130_lb": 236,
+              "155_lb": 281,
+              "190_lb": 345
+            }
+          },
+          {
+            "activity": "Swimming laps, freestyle, fast, vigorous effort",
+            "calories_burned": {
+              "130_lb": 590,
+              "155_lb": 704,
+              "190_lb": 863
+            }
+          },
+          {
+            "activity": "Swimming laps, freestyle, light/moderate effort",
+            "calories_burned": {
+              "130_lb": 472,
+              "155_lb": 563,
+              "190_lb": 690
+            }
+          },
+          {
+            "activity": "Swimming, backstroke, general",
+            "calories_burned": {
+              "130_lb": 472,
+              "155_lb": 563,
+              "190_lb": 690
+            }
+          },
+          {
+            "activity": "Swimming, breaststroke, general",
+            "calories_burned": {
+              "130_lb": 590,
+              "155_lb": 704,
+              "190_lb": 863
+            }
+          },
+          {
+            "activity": "Swimming, butterfly, general",
+            "calories_burned": {
+              "130_lb": 649,
+              "155_lb": 774,
+              "190_lb": 949
+            }
+          },
+          {
+            "activity": "Swimming, leisurely, general",
+            "calories_burned": {
+              "130_lb": 354,
+              "155_lb": 422,
+              "190_lb": 518
+            }
+          },
+          {
+            "activity": "Swimming, sidestroke, general",
+            "calories_burned": {
+              "130_lb": 472,
+              "155_lb": 563,
+              "190_lb": 690
+            }
+          },{
+            "activity": "Swimming, synchronized",
+            "calories_burned": {
+              "130_lb": 472,
+              "155_lb": 563,
+              "190_lb": 690
+            }
+          },
+          {
+            "activity": "Swimming, treading water, fast/vigorous",
+            "calories_burned": {
+              "130_lb": 590,
+              "155_lb": 704,
+              "190_lb": 863
+            }
+          },
+          {
+            "activity": "Swimming, treading water, moderate effort",
+            "calories_burned": {
+              "130_lb": 236,
+              "155_lb": 281,
+              "190_lb": 345
+            }
+          },
+          {
+            "activity": "Table tennis, ping pong",
+            "calories_burned": {
+              "130_lb": 236,
+              "155_lb": 281,
+              "190_lb": 345
+            }
+          },
+          {
+            "activity": "Tai chi",
+            "calories_burned": {
+              "130_lb": 236,
+              "155_lb": 281,
+              "190_lb": 345
+            }
+          },
+          {
+            "activity": "Teaching aerobics class",
+            "calories_burned": {
+              "130_lb": 354,
+              "155_lb": 422,
+              "190_lb": 518
+            }
+          },
+          {
+            "activity": "Tennis, doubles",
+            "calories_burned": {
+              "130_lb": 354,
+              "155_lb": 422,
+              "190_lb": 518
+            }
+          },
+          {
+            "activity": "Tennis, general",
+            "calories_burned": {
+              "130_lb": 413,
+              "155_lb": 493,
+              "190_lb": 604
+            }
+          },
+          {
+            "activity": "Tennis, singles",
+            "calories_burned": {
+              "130_lb": 472,
+              "155_lb": 563,
+              "190_lb": 690
+            }
+          },
+          {
+            "activity": "Unicycling",
+            "calories_burned": {
+              "130_lb": 295,
+              "155_lb": 352,
+              "190_lb": 431
+            }
+          },
+          {
+            "activity": "Volleyball, beach",
+            "calories_burned": {
+              "130_lb": 472,
+              "155_lb": 563,
+              "190_lb": 690
+            }
+          },
+          {
+            "activity": "Volleyball, competitive, in gymnasium",
+            "calories_burned": {
+              "130_lb": 236,
+              "155_lb": 281,
+              "190_lb": 345
+            }
+          },
+          {
+            "activity": "Volleyball, noncompetitive; 6-9 member team",
+            "calories_burned": {
+              "130_lb": 177,
+              "155_lb": 211,
+              "190_lb": 259
+            }
+          },
+          {
+            "activity": "Walk/run-playing with children-moderate",
+            "calories_burned": {
+              "130_lb": 236,
+              "155_lb": 281,
+              "190_lb": 345
+            }
+          },
+          {
+            "activity": "Walk/run-playing with children-vigorous",
+            "calories_burned": {
+              "130_lb": 295,
+              "155_lb": 352,
+              "190_lb": 431
+            }
+          },
+          {
+            "activity": "Walking, 2.0 mph, slow pace",
+            "calories_burned": {
+              "130_lb": 148,
+              "155_lb": 176,
+              "190_lb": 216
+            }
+          },
+          {
+            "activity": "Walking, 3.0 mph, mod. pace, walking dog",
+            "calories_burned": {
+              "130_lb": 207,
+              "155_lb": 246,
+              "190_lb": 302
+            }
+          },
+          {
+            "activity": "Walking, 3.5 mph, uphill",
+            "calories_burned": {
+              "130_lb": 354,
+              "155_lb": 422,
+              "190_lb": 518
+            }
+          },
+          {
+            "activity": "Walking, 4.0 mph, very brisk pace",
+            "calories_burned": {
+              "130_lb": 236,
+              "155_lb": 281,
+              "190_lb": 345
+            }
+          },
+          {
+            "activity": "Walking, carrying infant or 15-lb load",
+            "calories_burned": {
+              "130_lb": 207,
+              "155_lb": 246,
+              "190_lb": 302
+            }
+          },
+          {
+            "activity": "Walking, grass track",
+            "calories_burned": {
+              "130_lb": 295,
+              "155_lb": 352,
+              "190_lb": 431
+            }
+          },
+          {
+            "activity": "Walking, upstairs",
+            "calories_burned": {
+              "130_lb": 472,
+              "155_lb": 563,
+              "190_lb": 690
+            }
+          },
+          {
+            "activity": "Walking, using crutches",
+            "calories_burned": {
+              "130_lb": 236,
+              "155_lb": 281,
+              "190_lb": 345
+            }
+          },
+          {
+            "activity": "Wallyball, general",
+            "calories_burned": {
+              "130_lb": 413,
+              "155_lb": 493,
+              "190_lb": 604
+            }
+          },
+          {
+            "activity": "Water aerobics, water calisthenics",
+            "calories_burned": {
+              "130_lb": 236,
+              "155_lb": 281,
+              "190_lb": 345
+            }
+          },
+          {
+            "activity": "Water polo",
+            "calories_burned": {
+              "130_lb": 590,
+              "155_lb": 704,
+              "190_lb": 863
+            }
+          },
+          {
+            "activity": "Water volleyball",
+            "calories_burned": {
+              "130_lb": 177,
+              "155_lb": 211,
+              "190_lb": 259
+            }
+          },
+          {
+            "activity": "Weight lifting or body building, vigorous effort",
+            "calories_burned": {
+              "130_lb": 354,
+              "155_lb": 422,
+              "190_lb": 518
+            }
+          },
+          {
+            "activity": "Weight lifting, light or moderate effort",
+            "calories_burned": {
+              "130_lb": 177,
+              "155_lb": 211,
+              "190_lb": 259
+            }
+          },
+          {
+            "activity": "Whitewater rafting, kayaking, or canoeing",
+            "calories_burned": {
+              "130_lb": 295,
+              "155_lb": 352,
+              "190_lb": 431
+            }
+          }
+  ]
+}
+
