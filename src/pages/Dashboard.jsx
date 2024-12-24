@@ -4,13 +4,15 @@ import ExerciseList from '../components/ExerciseList';
 import ExerciseForm from '../components/ExerciseForm';
 
 const Dashboard = () => {
-  const userId = 'USER_ID_FROM_AUTH'; // Replace with userId from auth
+  const userId = localStorage.getItem('userId'); 
 
   return (
     <div>
       <Navbar />
-      <ExerciseForm userId={userId} onExerciseAdded={() => {}} />
-      <ExerciseList userId={userId} />
+      <div className="container mt-4">
+        <ExerciseForm userId={userId} onExerciseAdded={() => {}} />
+        <ExerciseList userId={userId} />
+      </div>
     </div>
   );
 };
