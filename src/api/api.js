@@ -1,7 +1,7 @@
 import axios from 'axios';
 
 const API = axios.create({
-  baseURL: 'http://localhost:3000/api',
+  baseURL: 'https://pinto-quaint-flight.glitch.me/api',
 });
 
 // User-related endpoints
