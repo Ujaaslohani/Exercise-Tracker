@@ -64,7 +64,7 @@ This repository contains the frontend and backend code for the Exercise Tracker 
 ### Frontend Setup
 1. Clone the repository:
    ```bash
-   git clone [https://github.com/Ujaaslohani/Exercise-Tracker-Backend](https://github.com/Ujaaslohani/Exercise-Tracker)
+   git clone https://github.com/Ujaaslohani/Exercise-Tracker
    ```
 2. Install dependencies:
    ```bash
