@@ -33,7 +33,7 @@ const ExerciseForm = ({ userId, onExerciseAdded }) => {
         date: formData.date,
       };
       await addExercise(userId, payload);
-      onExerciseAdded(); // Refresh the exercise list
+      onExerciseAdded(); // Notify the parent to refresh the list
       setFormData({ name: '', weight: '', duration: '', date: '' });
     } catch (error) {
       console.error('Error adding exercise:', error);

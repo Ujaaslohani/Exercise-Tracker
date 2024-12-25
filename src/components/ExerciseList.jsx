@@ -6,23 +6,27 @@ const ExerciseList = ({ userId }) => {
   const [filterDate, setFilterDate] = useState('');
   const [totalCalories, setTotalCalories] = useState(0);
 
+  const fetchExercises = async () => {
+    try {
+      const { data } = await getExercises(userId, filterDate);
+      setExercises(data);
+      setTotalCalories(data.reduce((sum, ex) => sum + ex.caloriesBurned, 0));
+    } catch (error) {
+      console.error('Error fetching exercises:', error);
+    }
+  };
+
   useEffect(() => {
-    const fetchExercises = async () => {
-      try {
-        const { data } = await getExercises(userId, filterDate);
-        setExercises(data);
-        setTotalCalories(data.reduce((sum, ex) => sum + ex.caloriesBurned, 0));
-      } catch (error) {
-        console.error('Error fetching exercises:', error);
-      }
-    };
-  
     fetchExercises();
   }, [userId, filterDate]);
 
   const handleDelete = async (exerciseId) => {
-    await deleteExercise(userId, exerciseId);
-    setExercises(exercises.filter((ex) => ex._id !== exerciseId));
+    try {
+      await deleteExercise(userId, exerciseId);
+      fetchExercises(); // Refresh the list after deletion
+    } catch (error) {
+      console.error('Error deleting exercise:', error);
+    }
   };
 
   return (
@@ -38,9 +42,21 @@ const ExerciseList = ({ userId }) => {
       </div>
       <ul className="list-group">
         {exercises.map((exercise) => (
-          <li key={exercise._id} className="list-group-item d-flex justify-content-between align-items-center">
-            {exercise.name} - <span className="badge bg-primary">{exercise.caloriesBurned} calories</span>
-            <button className="btn btn-sm btn-danger" onClick={() => handleDelete(exercise._id)}>Delete</button>
+          <li
+            key={exercise._id}
+            className="list-group-item d-flex justify-content-between align-items-center"
+          >
+            <div>
+              <strong>{exercise.name}</strong> <br />
+              <span>Duration: {exercise.duration} mins</span>
+            </div>
+            <span className="badge bg-primary">{exercise.caloriesBurned} calories</span>
+            <button
+              className="btn btn-sm btn-danger"
+              onClick={() => handleDelete(exercise._id)}
+            >
+              Delete
+            </button>
           </li>
         ))}
         <li className="list-group-item text-end">

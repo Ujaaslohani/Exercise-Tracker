@@ -4,7 +4,12 @@ import { useNavigate } from 'react-router-dom';
 
 const Login = () => {
   const [credentials, setCredentials] = useState({ username: '', password: '' });
+  const [showPassword, setShowPassword] = useState(false);
   const navigate = useNavigate();
+  
+  const togglePasswordVisibility = () => {
+      setShowPassword(!showPassword);
+    };
 
   const handleSubmit = async (e) => {
     e.preventDefault();
@@ -12,6 +17,9 @@ const Login = () => {
       const { data } = await loginUser(credentials);
       localStorage.setItem('token', data.token);
       localStorage.setItem('userId', data.userId); 
+      console.log(" data.userId ==> ",  data.userId);
+      localStorage.setItem('username', data.username);
+      console.log(" data.username ==> ",  data.username);
       navigate('/dashboard');
     } catch (error) {
       alert('Invalid credentials');
@@ -31,14 +39,23 @@ const Login = () => {
             onChange={(e) => setCredentials({ ...credentials, username: e.target.value })}
           />
         </div>
-        <div className="mb-3">
+         <div className="mb-3 position-relative">
           <input
-            type="password"
+            type={showPassword ? 'text' : 'password'}
             className="form-control"
             placeholder="Password"
             value={credentials.password}
-            onChange={(e) => setCredentials({ ...credentials, password: e.target.value })}
+            onChange={(e) =>
+              setCredentials({ ...credentials, password: e.target.value })
+            }
           />
+          <span
+            className="position-absolute top-50 end-0 translate-middle-y me-3"
+            style={{ cursor: 'pointer' }}
+            onClick={togglePasswordVisibility}
+          >
+            {showPassword ? '🙈' : '👁️'}
+          </span>
         </div>
         <button type="submit" className="btn btn-primary w-100">Login</button>
       </form>
