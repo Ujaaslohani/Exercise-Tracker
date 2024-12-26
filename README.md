@@ -2,6 +2,8 @@
 
 This repository contains the frontend and backend code for the Exercise Tracker Application. The app allows users to track their exercises, view calories burned, and manage their exercise logs.
 
+The application is deployed and can be accessed at the following link: [Live Demo](https://exercis-tracker.netlify.app/)
+
 ---
 
 ## Features
